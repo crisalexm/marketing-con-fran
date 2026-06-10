@@ -41,14 +41,6 @@ export default function About() {
             </p>
           </Reveal>
         </div>
-
-        <Reveal className="video-embed">
-          <div className="video-frame">
-            <div className="play-btn" role="button" aria-label="Reproducir video" />
-            <div className="video-label">▶ Mira mi video de presentación</div>
-          </div>
-          <p className="video-note">(Reemplaza este bloque con tu video de YouTube o Vimeo)</p>
-        </Reveal>
       </div>
     </section>
   );

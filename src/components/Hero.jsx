@@ -9,24 +9,31 @@ export default function Hero() {
       <div className="hero-bg-glow" />
       <div className="container">
         <div className="hero-inner reveal" ref={ref}>
-          <PhoenixIcon
-            className="hero-phoenix"
-            style={{ color: 'var(--primary)' }}
-            aria-hidden="true"
-          />
-          <p className="hero-eyebrow">Renacer desde el interior</p>
-          <h1>
-            Renace tu negocio y vende todos los días en{' '}
-            <span className="accent">TikTok</span> e{' '}
-            <span className="accent">Instagram</span> 🔥
-          </h1>
-          <p className="hero-sub">Sin pagar publicidad. Sin hacer en vivos. Solo con tu contenido.</p>
-          <p className="hero-para">
-            Ayudo a emprendedores y dueños de negocios físicos y online a{' '}
-            <strong style={{ color: 'var(--text)' }}>renacer desde adentro</strong> — y a generar entre{' '}
-            <strong style={{ color: 'var(--text)' }}>$10,000 y $20,000 USD al mes</strong> vendiendo todos
-            los días con videos estratégicos en TikTok e Instagram.
-          </p>
+          <div className="hero-promise">
+            <PhoenixIcon
+              className="hero-phoenix"
+              style={{ color: 'var(--primary)' }}
+              aria-hidden="true"
+            />
+            <p className="hero-eyebrow">Renacer desde el interior</p>
+            <h1>
+              Renace tu negocio y vende todos los días en{' '}
+              <span className="accent">TikTok</span> e{' '}
+              <span className="accent">Instagram</span> 🔥
+            </h1>
+            <p className="hero-sub">Sin pagar publicidad. Sin hacer en vivos. Solo con tu contenido.</p>
+          </div>
+
+          <div className="hero-video-wrap">
+            <iframe
+              src="https://player.vimeo.com/video/1199949505?badge=0&autopause=0&player_id=0&app_id=58479"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowFullScreen
+              title="Marketing con Fran — Video de presentación"
+            />
+          </div>
+
           <div className="hero-cta-wrap">
             <a
               className="btn btn-primary btn-lg"
@@ -40,11 +47,12 @@ export default function Hero() {
               Si el link no funciona, escribe al: <strong>+56 9 7439 7629</strong>
             </p>
           </div>
-          <div className="trust-bar">
-            <span>🚀 +65K seguidores en TikTok</span>
-            <span>📦 Casos reales de $6K a $30K en ventas</span>
-            <span>👥 +259 emprendedores en comunidad</span>
-          </div>
+        </div>
+
+        <div className="trust-bar">
+          <span>🚀 +65K seguidores en TikTok</span>
+          <span>📦 Casos reales de $6K a $30K en ventas</span>
+          <span>👥 +259 emprendedores en comunidad</span>
         </div>
       </div>
       <div className="wave" aria-hidden="true">
