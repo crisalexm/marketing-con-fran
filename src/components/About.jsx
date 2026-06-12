@@ -16,8 +16,7 @@ export default function About() {
         <div className="about-grid">
           <Reveal className="about-left">
             <div className="about-photo">
-              <div className="ph-icon">📸</div>
-              <div>Tu foto<br />aquí</div>
+              <img src="/profile/profile-fran.jpeg" alt="Fran" />
             </div>
             <div className="about-badge">🔥 Especialista en Ventas por Redes Sociales</div>
           </Reveal>
