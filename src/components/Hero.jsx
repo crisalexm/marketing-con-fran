@@ -17,11 +17,13 @@ export default function Hero() {
             />
             <p className="hero-eyebrow">Renacer desde el interior</p>
             <h1>
-              Renace tu negocio y vende todos los días en{' '}
-              <span className="accent">TikTok</span> e{' '}
-              <span className="accent">Instagram</span> 🔥
+              Te Enseñaré mi {' '}
+              <span className="accent">Sistema</span> para vender de{' '}
+              <span className="accent">5.000$</span> a{' '}
+              <span className="accent">15.000$</span> con{' '}
+              <span className="accent">TikTok</span> haciendo Videos
             </h1>
-            <p className="hero-sub">Sin pagar publicidad. Sin hacer en vivos. Solo con tu contenido.</p>
+            <p className="hero-sub">🚫Sin Depender de LIVE - Ni Publicidad🚫</p>
           </div>
 
           <div className="hero-video-wrap">
