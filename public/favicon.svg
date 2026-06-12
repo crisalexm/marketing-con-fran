@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="8" fill="#1DA8E0"/>
-  <text x="16" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="20" fill="#ffffff">F</text>
+  <!-- F letter as paths -->
+  <rect x="9" y="7" width="14" height="3" rx="1" fill="#fff"/>
+  <rect x="9" y="7" width="3" height="18" rx="1" fill="#fff"/>
+  <rect x="9" y="15" width="11" height="3" rx="1" fill="#fff"/>
 </svg>
