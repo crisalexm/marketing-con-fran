@@ -9,19 +9,19 @@ const steps = [
   {
     num: '01',
     icon: '🎯',
-    title: 'Diagnóstico Gratuito',
+    title: 'Diagnóstico completo',
     desc: 'Analizamos tu negocio, tu situación actual y definimos la estrategia de contenido ideal para tu nicho específico.',
   },
   {
     num: '02',
     icon: '📱',
-    title: 'Sistema de Contenido',
-    desc: 'Te diseño un plan de videos estratégicos que atraen clientes orgánicamente — sin anuncios, sin en vivos, solo con tu celular.',
+    title: 'Sistema de contenido',
+    desc: <>Te diseño un plan de videos estratégicos que atraen clientes orgánicamente — sin anuncios, sin <em>en vivos</em>, solo con tu celular.</>,
   },
   {
     num: '03',
     icon: '🚀',
-    title: 'Resultados en 90 Días',
+    title: 'Resultados en 90 días',
     desc: 'Implementas el sistema, yo corrijo tus videos, y en 90 días tienes un negocio que vende todos los días de forma predecible.',
   },
 ];

@@ -26,7 +26,7 @@ export default function About() {
             <p>
               Soy <strong>Fran</strong>, especialista en ventas por redes sociales. Ayudo a negocios físicos
               y online a vender todos los días usando TikTok e Instagram — sin depender de anuncios pagados
-              ni de hacer transmisiones en vivo.
+              ni de hacer transmisiones <em>en vivo</em>.
             </p>
             <p>
               Mi método se basa en crear <strong>contenido estratégico</strong> que atrae clientes de forma
@@ -34,9 +34,8 @@ export default function About() {
               a generar entre <strong>$10K y $20K USD al mes</strong>.
             </p>
             <p>
-              Con <strong>+65K seguidores en TikTok</strong> y <strong>+22K en Instagram</strong>, he
-              comprobado que cualquier negocio puede vender todos los días — sin pagar un solo dólar en
-              publicidad.
+              Con <strong>+250 alumnos en mi comunidad</strong>, he comprobado que cualquier negocio puede 
+              <strong> vender todos los días</strong> — sin pagar un solo dólar en publicidad.
             </p>
           </Reveal>
         </div>

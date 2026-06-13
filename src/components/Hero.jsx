@@ -1,4 +1,3 @@
-import PhoenixIcon from './PhoenixIcon';
 import { useReveal } from '../hooks/useReveal';
 
 export default function Hero() {
@@ -10,20 +9,21 @@ export default function Hero() {
       <div className="container">
         <div className="hero-inner reveal" ref={ref}>
           <div className="hero-promise">
-            <PhoenixIcon
+            <img
               className="hero-phoenix"
-              style={{ color: 'var(--primary)' }}
+              src="/icon/logo-fenix-azul.png"
+              alt=""
               aria-hidden="true"
             />
             <p className="hero-eyebrow">Renacer desde el interior</p>
             <h1>
               Te enseñaré mi {' '}
-              <span className="accent">Sistema</span> para vender de{' '}
+              <span className="accent">sistema</span> para vender de{' '}
               <span className="accent">$5.000</span> a{' '}
               <span className="accent">$15.000</span> con{' '}
-              <span className="accent">TikTok</span> haciendo Videos
+              <span className="accent">TikTok</span> haciendo videos
             </h1>
-            <p className="hero-sub">🚫Sin Depender de LIVE - Ni Publicidad🚫</p>
+            <p className="hero-sub">🚫Sin depender de <em>en vivos</em> - ni publicidad🚫</p>
           </div>
 
           <div className="hero-video-wrap">
@@ -43,7 +43,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              💬 Agenda tu llamada gratis por WhatsApp
+              💬 Contacta a Fran Aquí
             </a>
             <p className="fallback">
               Si el link no funciona, escribe al: <strong>+56 9 7439 7629</strong>

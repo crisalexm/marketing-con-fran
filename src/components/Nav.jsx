@@ -1,11 +1,9 @@
-import PhoenixIcon from './PhoenixIcon';
-
 export default function Nav({ theme, onToggleTheme }) {
   return (
     <nav className="nav">
       <div className="nav-inner">
         <a className="nav-brand" href="#top">
-          <PhoenixIcon className="brand-mark" style={{ color: 'var(--primary)' }} aria-hidden="true" />
+          <img className="brand-mark" src="/icon/logo-fenix-azul.png" alt="" aria-hidden="true" />
           <span className="nav-brand-stack">
             <span>
               Fran<span className="brand-sep"> | </span>
