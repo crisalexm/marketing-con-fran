@@ -1,4 +1,3 @@
-import PhoenixIcon from './PhoenixIcon';
 import { useReveal } from '../hooks/useReveal';
 
 function Reveal({ children, className = '' }) {
@@ -10,7 +9,7 @@ export default function CtaFinal() {
   return (
     <section className="cta-final">
       <div className="container">
-        <PhoenixIcon className="cta-phoenix" style={{ color: '#fff' }} aria-hidden="true" />
+        <img className="cta-phoenix" src="/icon/logo-fenix-blanco.png" alt="" aria-hidden="true" />
         <Reveal><p className="cta-eyebrow">Renacer desde el interior</p></Reveal>
         <Reveal><h2>¿Listo para renacer y vender todos los días? 🔥</h2></Reveal>
         <Reveal>
